@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #3F3D56;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+
+body::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  display: none;
+}
+
+.container {
+  overflow-x: hidden;
+}
+
+a.btn {
+  background-color: #018BE7 !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+#home {
+  position: relative;
+}
+
+#home .blue {
+  color: #018BE7 !important;
+}
+
+#home .yellow {
+  color: #FED500 !important;
+}
+
+#home a {
+  text-decoration: none;
+  color: #3F3D56;
+  cursor: text;
+  font-weight: bold;
+}
+
+#home h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+#home p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#home a.btn {
+  background-color: #018BE7 !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#home .up {
+  margin-bottom: 5px;
+  position: fixed;
+  left: 10px;
+}
+
+#Process {
+  position: relative;
+}
+
+#Process .card {
+  border: none;
+}
+
+#Process .card .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+}
+
+#Process .card .title .number {
+  width: 40px;
+  height: 40px;
+  background-color: #FED500;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Process .card .content {
+  font-size: 12px;
+}
+
+#Process .blue {
+  color: #018BE7 !important;
+}
+
+#Process .yellow {
+  color: #FED500 !important;
+}
+
+#Process a {
+  text-decoration: none;
+  color: #3F3D56;
+  cursor: text;
+  font-weight: bold;
+}
+
+#Process h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#Process p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#Process a.btn {
+  background-color: #018BE7 !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#Process .up {
+  margin-bottom: 5px;
+  position: fixed;
+  left: 10px;
+}
+
+#Benefits {
+  position: relative;
+}
+
+#Benefits .review {
+  position: absolute;
+  top: 0;
+  left: -190px;
+  -webkit-transform: rotateZ(59.37deg);
+          transform: rotateZ(59.37deg);
+  z-index: -10;
+}
+
+#Benefits .imgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Benefits .text {
+  position: relative;
+}
+
+#Benefits .text .horizontal {
+  width: 80%;
+  height: .1em;
+  background-color: #3f3d5625;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(10%, 0);
+          transform: translate(10%, 0);
+}
+
+#Benefits .text .vertical {
+  height: 80%;
+  width: .1em;
+  background-color: #3f3d5625;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(0, 10%);
+          transform: translate(0, 10%);
+}
+
+#Benefits .blue {
+  color: #018BE7 !important;
+}
+
+#Benefits .yellow {
+  color: #FED500 !important;
+}
+
+#Benefits a {
+  text-decoration: none;
+  color: #3F3D56;
+  cursor: text;
+  font-weight: bold;
+}
+
+#Benefits h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#Benefits h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#Benefits p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#Benefits a.btn {
+  background-color: #018BE7 !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#Benefits .up {
+  margin-bottom: 5px;
+  position: fixed;
+  left: 10px;
+}
+
+#Contact {
+  background: url(../Images/Layers_Top.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #00578E;
+}
+
+#Contact .contactCard {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+#Contact .blue {
+  color: #018BE7 !important;
+}
+
+#Contact .yellow {
+  color: #FED500 !important;
+}
+
+#Contact a {
+  text-decoration: none;
+  color: #3F3D56;
+  cursor: text;
+  font-weight: bold;
+}
+
+#Contact h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#Contact a.btn {
+  background-color: #018BE7 !important;
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+#Contact .contactArt {
+  position: relative;
+}
+
+#Contact .blueBox {
+  width: 350px;
+  height: 220px;
+  border-radius: 10px;
+  background-color: #00578E;
+  z-index: 1;
+  position: relative;
+}
+
+#Contact .blueBox .logoBox {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #3F3D56;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Contact .blueBox h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#Contact .blueBox p {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.yellowBox {
+  background-color: #FED500 !important;
+  width: 350px;
+  height: 220px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) rotateZ(-9.56deg);
+          transform: translateX(-50%) rotateZ(-9.56deg);
+  z-index: 0;
+}
+
+.yellowBox .logoBox {
+  background-color: #018BE7 !important;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #3F3D56;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#newsLetter input {
+  border-radius: 50px !important;
+}
+
+#newsLetter .blue {
+  color: #018BE7 !important;
+}
+
+#newsLetter .yellow {
+  color: #FED500 !important;
+}
+
+#newsLetter a {
+  text-decoration: none;
+  color: #3F3D56;
+  cursor: text;
+  font-weight: bold;
+}
+
+#newsLetter h2, #newsLetter h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#newsLetter h3 {
+  font-size: 36px;
+}
+
+#newsLetter h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#newsLetter button {
+  border-radius: 100%;
+  outline: none !important;
+}
+
+#newsLetter a.btn {
+  background-color: #018BE7 !important;
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+#footer {
+  background: url(../Images/Layers_Down.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #00578E;
+}
+
+#footer .blue {
+  color: #018BE7 !important;
+}
+
+#footer .yellow {
+  color: #FED500 !important;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #3F3D56;
+  cursor: text;
+  font-weight: bold;
+}
+
+#footer h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+#footer li {
+  list-style: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#footer a.btn {
+  background-color: #018BE7 !important;
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+#footer .footText {
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

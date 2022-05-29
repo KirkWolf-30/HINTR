@@ -1,0 +1,530 @@
+$fonts: 'Montserrat', sans-serif;
+
+$main: #018BE7;
+$dark: #3F3D56;
+$yellow: #FED500;
+$white: #ffffff;
+
+$bg:#00578E;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $dark ;
+}
+
+body{
+    font-family: $fonts !important;
+    
+}
+
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+
+body::-webkit-scrollbar{
+    scroll-behavior: smooth;
+display: none;
+}
+
+.container{
+    overflow-x: hidden;
+}
+
+
+a.btn{
+    background-color: $main !important;
+    color: $white !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.navbar{
+    background: rgba( 255, 255, 255, 0.25 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 10px );
+}
+
+#home{
+
+    position: relative;
+
+    .blue{
+        color: $main !important;
+    }
+
+    .yellow{
+        color: $yellow !important;
+    }
+
+    a{
+        text-decoration: none;
+        color: $dark;
+        cursor:text;
+        font-weight: bold;
+
+    }
+
+    h1{
+        font-size: 64px;
+        font-weight: bold;
+
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    
+    a.btn{
+        background-color: $main !important;
+        color: $white !important;
+        font-size: 16px !important;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .up{
+        margin-bottom: 5px;
+        position: fixed;
+        left: 10px;
+    }
+
+}
+
+#Process{
+
+    position: relative;
+
+
+    .card{
+        border: none;
+
+.title{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+    .number{
+        width: 40px;
+        height: 40px;
+        background-color: $yellow;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+.content{
+    font-size: 12px;
+}
+
+    }
+
+    .blue{
+        color: $main !important;
+    }
+
+    .yellow{
+        color: $yellow !important;
+    }
+
+    a{
+        text-decoration: none;
+        color: $dark;
+        cursor:text;
+        font-weight: bold;
+
+    }
+
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    
+    a.btn{
+        background-color: $main !important;
+        color: $white !important;
+        font-size: 16px !important;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .up{
+        margin-bottom: 5px;
+        position: fixed;
+        left: 10px;
+    }
+
+}
+
+
+#Benefits{
+
+    position: relative;
+    
+
+    .review{
+        position: absolute;
+        top: 0;
+        left: -190px;
+        transform:rotateZ(59.37deg);
+        z-index: -10;
+    }
+
+  .imgContainer{
+      display: flex;
+
+      justify-content: center;
+  }
+
+
+
+
+  .text{
+      position: relative;
+
+
+
+      .horizontal{
+          width: 80%;
+          height: .1em;
+          background-color: #3f3d5625;
+          position: absolute;
+          top: 50%;
+          transform: translate(10% , 0);
+          
+      }
+
+      .vertical{
+        height: 80%;
+        width: .1em;
+        background-color: #3f3d5625;
+        position: absolute;
+        left: 50%;
+        transform: translate(0 , 10%);
+    }
+
+  }
+
+  
+
+    
+
+
+    .blue{
+        color: $main !important;
+    }
+
+    .yellow{
+        color: $yellow !important;
+    }
+
+    a{
+        text-decoration: none;
+        color: $dark;
+        cursor:text;
+        font-weight: bold;
+
+    }
+
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+
+    }
+
+    h3{
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+
+    p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    
+    a.btn{
+        background-color: $main !important;
+        color: $white !important;
+        font-size: 16px !important;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .up{
+        margin-bottom: 5px;
+        position: fixed;
+        left: 10px;
+    }
+
+}
+
+
+
+
+#Contact{
+
+ 
+
+    background: url(../Images/Layers_Top.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $bg;
+
+
+
+
+    .contactCard{
+        background-color: $white;
+        border-radius: 10px;
+    }
+    .blue{
+        color: $main !important;
+    }
+
+    .yellow{
+        color: $yellow !important;
+    }
+
+    a{
+        text-decoration: none;
+        color: $dark;
+        cursor:text;
+        font-weight: bold;
+
+    }
+
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+
+    }
+
+
+    
+    a.btn{
+        background-color: $main !important;
+        color: $white !important;
+        font-size: 13px !important;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+.contactArt{
+    position: relative;
+}
+
+    .blueBox{
+        width: 350px;
+        height:220px ;
+border-radius: 10px;
+        background-color: $bg;
+z-index: 1;
+        position: relative;
+        
+
+        .logoBox{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: $dark;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50% , -50%);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h4{
+color: $white;
+font-size: 24px;
+font-weight: 400;    
+        }
+
+        p{
+            color: $white;
+  font-size: 12px;
+  font-weight: 200;    
+
+        }
+
+    }
+
+}
+
+.yellowBox{
+    background-color: $yellow !important;
+
+    width: 350px;
+    height:220px ;
+border-radius: 10px;
+
+position: absolute;
+left: 50%;
+transform: translateX(-50%) rotateZ(-9.56deg);
+z-index: 0;
+
+
+
+     .logoBox{
+background-color: $main !important;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+background-color: $dark;
+position: absolute;
+top: 0;
+left: 50%;
+transform: translate(-50% , -50%);
+
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+}
+
+
+#newsLetter{
+
+ 
+
+    input{
+        border-radius: 50px !important;
+    }
+
+
+
+   
+    .blue{
+        color: $main !important;
+    }
+
+    .yellow{
+        color: $yellow !important;
+    }
+
+    a{
+        text-decoration: none;
+        color: $dark;
+        cursor:text;
+        font-weight: bold;
+
+    }
+
+    h2,h3{
+        font-size: 48px;
+        font-weight: bold;
+
+    }
+
+    h3{
+        font-size: 36px;
+    }
+
+    h4{
+        font-size: 24px;
+        font-weight: 500;
+
+    }
+
+button{
+    border-radius: 100%;
+    outline: none !important;
+}
+    
+    a.btn{
+        background-color: $main !important;
+        color: $white !important;
+        font-size: 13px !important;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+}
+
+
+#footer{
+
+
+    background: url(../Images/Layers_Down.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $bg;
+
+
+
+    .blue{
+        color: $main !important;
+    }
+
+    .yellow{
+        color: $yellow !important;
+    }
+
+    a{
+        text-decoration: none;
+        color: $dark;
+        cursor:text;
+        font-weight: bold;
+
+    }
+
+    h4{
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+
+    }
+
+
+    li{
+        list-style: none;
+        color: $white;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    
+    a.btn{
+        background-color: $main !important;
+        color: $white !important;
+        font-size: 13px !important;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+
+    .footText{
+        color: $white;
+    }
+
+}
+
+
+
+    
